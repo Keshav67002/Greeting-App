@@ -9,10 +9,17 @@ function sendData() {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({ name: name })     // sending data
-    })
+    })    
     .then(res => res.json())
     .then(data => {
         document.getElementById("result").innerText = data.message;
     });
+    
 }
- 
+function clearData() {
+  // clear input field
+  document.getElementById("nameInput").value = "";
+
+  // clear result text
+  document.getElementById("result").innerText = "";
+}
