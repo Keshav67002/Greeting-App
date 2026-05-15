@@ -25,4 +25,4 @@ Response sent back
      ↓
 Frontend displays result
 
-Application architecture
+Application architecture ancd overview
