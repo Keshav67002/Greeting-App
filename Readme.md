@@ -24,3 +24,5 @@ Service generates message
 Response sent back
      ↓
 Frontend displays result
+
+Application architecture
